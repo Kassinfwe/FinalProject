@@ -18,10 +18,17 @@ font-family: 'Cormorant Garamond', serif;
 html {
   font-size: 62.5%;
   font-family:'Open Sans', sans-serif;
+  	background: url('WhiteWall.jpg');
+
 }
 
 .paperbag {
 	background: url('PaperBag.jpg');
+}
+
+body {
+		background: url('PaperBag.jpg');
+
 }
 
 a {
@@ -35,6 +42,8 @@ a {
 
 section {
 	display: flex;
+		background: url('PaperBag.jpg');
+
 }
 
 /******************************************
