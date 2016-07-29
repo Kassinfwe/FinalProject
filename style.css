@@ -1,0 +1,348 @@
+/** Base Styles **/
+/**
+font-family: 'Indie Flower', cursive;
+
+font-family: 'Amatic SC', cursive;
+
+font-family: 'Life Savers', cursive;
+
+font-family: 'Bree Serif', serif;
+
+font-family: 'Poiret One', cursive;
+
+font-family: 'Harmattan', sans-serif;
+font-family: 'Arima Madurai', cursive;
+font-family: 'Cormorant Garamond', serif;
+**/
+
+html {
+  font-size: 62.5%;
+  font-family:'Open Sans', sans-serif;
+}
+
+.paperbag {
+	background: url('PaperBag.jpg');
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.center {
+	text-align: center;
+}
+
+section {
+	display: flex;
+}
+
+/******************************************
+/* Splash Page (.Index)
+/*******************************************/
+
+/** Splash Page - Styles **/
+
+.words {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+	font-size: 8rem;
+	margin-bottom: 12rem;
+	margin-top: 8rem;
+	text-shadow: -1.5px .5px 1.5px #969696;
+}
+
+h2 {
+	font-size: 4rem;
+	margin-top: 10rem;
+	color: #969696;
+	text-shadow: 1.5px .5px 1.5px #6D6968;
+}
+
+/** Splash Page - Carousel Items **/
+
+.jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    margin: auto;
+    padding: auto;
+}
+
+li {
+	list-style: none;
+	overflow: hidden;
+}
+
+.jcarouselwrapper {
+	margin: 20px auto;
+	position: relative;
+	width: 400px;
+	height: auto;
+}
+
+
+/** Splash Page - Carousel Functions **/
+
+.jcarousel {
+	position: relative;
+	overflow: hidden;
+}
+
+.jcarousel ul {
+	width: 20000em;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.jcarousel li {
+	float: left;
+	overflow: hidden;
+}
+
+/** Splash Page - Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+	position: absolute;
+	top: 100px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	color: #4E443C;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+}
+
+.jcarousel-control-prev {
+	left: -50px;
+}
+
+.jcarousel-control-next {
+	right: -50px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+	display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+	opacity: .5;
+	cursor: default;
+}
+
+
+/******************************************/
+/* Header 
+/******************************************/
+
+.header {
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 1rem;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+}
+
+#headname {
+	margin-left: 29rem;
+	margin-top: -7.5rem;
+	margin-bottom: 0;
+	text-shadow: -1.5px .5px 1.5px rgba(255, 64, 64, .7);
+}
+
+@media (max-width: 1300px) {
+	#headname {
+		display: block;
+		margin: 0rem;
+		text-align: center;	
+	}
+ }
+
+.main-menu p {
+	display: inline-block;
+	font-size: 4rem;
+	margin-left: 4.5rem;
+	margin-top: 2rem;
+	font-weight: 600;
+	text-shadow: 1.5px .5px 1.5px rgba(226,96,0,.7);
+	color: #000;
+}
+
+
+
+/******************************************
+/* Home Page (.home)
+/*******************************************/
+
+#quotes {
+	flex-flow: row wrap;	
+	justify-content: center;
+	align-items: center;
+	height: 25rem;
+}
+
+blockquote {
+	font-family: 'Life Savers', cursive;	
+	font-size: 2rem;
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 20%;
+	align-self: flex-start;
+}
+
+#middle-quote {
+	align-self: flex-end;
+}
+
+blockquote footer {
+	font-size: 3rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+#works {
+	text-align: center;
+	flex-flow: row wrap;	
+	justify-content: center;
+	align-items: center;
+	height: 25rem;
+}
+
+.covers {
+	margin-top: 40%;
+	width: 60%;
+}
+
+@media (max-width: 1250px) {
+	#works a img {
+	margin-top: 20%;
+	}
+ }
+
+
+/******************************************
+/* Bio Page (.AboutMe)
+/*******************************************/
+
+.bio-p {
+	flex-flow: columns wrap;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+.bio-p p {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 2.4rem;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	text-align: justify;
+	padding: 2rem;
+	margin-right: 10rem;
+	background-color:rgba(226,96,0,.05);
+}
+
+
+
+/******************************************
+/* Books Page (.Books)
+/*******************************************/
+
+.books {
+	display: flex;
+	height: 40rem;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.5rem;
+	background-image: url("PaperBag.jpg");
+}
+
+.books-p-right {
+	flex-flow: row wrap;
+	font-size: 1.5rem;
+	margin-right: 10rem;
+}
+
+.books-img-left {
+	flex-flow: row wrap;
+	margin: auto;
+	padding: 2rem;
+}
+
+.books-img-left img {
+	height: 40rem;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+
+.books-p-left {
+	flex-flow: row wrap;
+	margin-left: 10rem;
+	margin-right: 2rem;
+}
+
+.books-img-right {
+	flex-flow: row wrap;
+	margin: auto;
+}
+
+.books-img-right img {
+	height: 40rem;
+	margin-left: 0rem;
+	margin-right: 10rem;
+}
+
+.aside-quote {
+	display: block;
+	background-image: url('PaperBag.jpg') cover;
+}
+
+.aside-quote blockquote {
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	width: 40%;
+	margin: auto;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+/******************************************
+/* Footer
+/*******************************************/
+
+.nav-footer {
+	display: block;
+	background-color: rgba(226,96,0,.05);
+	margin: 0;
+}
+
+.nav-footer p {
+	font-size: ;
+}
+
+.nav-footer ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 0;
+}
+
