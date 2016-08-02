@@ -364,9 +364,18 @@ blockquote footer {
 	justify-content: flex-start;
 }
 
-.blog-content:nth0child(2) {
-	width: 50%;
-	font-size: 1.6rem;
+.blog-content p:nth-child(2) {
+	width: 55%;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.blog-content p {
+	width: 100%;
+	font-size: 1.8rem;
+	text-align: justify;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 300;
 }
 
 .sidebar {
@@ -376,6 +385,7 @@ blockquote footer {
 
 .blog-pic {
 	max-width: 30rem;
+	max-height: 30rem;
 	padding: 2rem;
 	padding-left: 0rem;
 }
@@ -395,11 +405,12 @@ blockquote footer {
 .title {
 	margin: auto;
 	text-align: center;
-	font-size: 3.2rem;
+	font-size: 3.4rem;
 	font-style: italic;
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
 	color: rgba(255,64,64, .7);
+	text-shadow: 1.5px .5px 1.5px rgba(118,118,118,.5);
 }
 
 
