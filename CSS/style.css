@@ -332,6 +332,7 @@ blockquote footer {
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 }
+
 /******************************************
 /* Blog (blog.html)
 /*******************************************/
@@ -344,18 +345,40 @@ blockquote footer {
 .entry-container {
 	flex-flow: column nowrap;
 	order: 1;
-	width: 70%;
+	width: 58%;
 }
 
 .blog-entry {
-	flex-flow: row nowrap;
+	padding-left: 3rem;
+	margin-left: 4rem;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #CDCDCD;
+	margin-bottom: 4rem;
+}
+
+.blog-content {
+	flex-flow: row wrap;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.blog-content:nth0child(2) {
+	width: 50%;
+	font-size: 1.6rem;
 }
 
 .sidebar {
 	order: 2;
-	width: 30%;
+	width: 48%;
 }
 
+.blog-pic {
+	max-width: 30rem;
+	padding: 2rem;
+	padding-left: 0rem;
+}
 
 .green {
 	font-color: #1FA362;
@@ -366,7 +389,17 @@ blockquote footer {
 }
 
 .headline {
-	font-size: 2.6rem;
+	font-size: 2.4rem;
+}
+
+.title {
+	margin: auto;
+	text-align: center;
+	font-size: 3.2rem;
+	font-style: italic;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	color: rgba(255,64,64, .7);
 }
 
 
