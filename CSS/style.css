@@ -378,6 +378,11 @@ blockquote footer {
 	font-weight: 300;
 }
 
+.emphasis {
+	font-size: 2rem !important;
+	font-weight: bold !important;
+}
+
 .sidebar {
 	order: 2;
 	width: 48%;
@@ -416,6 +421,50 @@ blockquote footer {
 .archive-list {
 	text-align: center;
 	font-size: 2.2rem;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+summary {
+	font-style: italic;
+}
+
+.blog-date {
+	font-size: 2rem;
+}
+
+@media (max-width: 1180px) {
+	.blog-content p:nth-child(2) {
+		width: 100%;
+		font-size: 1.8rem;
+		text-align: justify;
+		font-family: 'Cormorant Garamond', serif;
+		font-weight: 300;
+	}
+
+	.blog-entry {
+		text-align: center;
+	}
+
+	.blog-pic {
+		margin: auto;
+	}
+
+	.blog-content p {
+		text-align: justify;
+		margin: auto;
+		padding-right: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.archive-list {
+		margin-top: 2rem;
+	}
+
+	.entry-container .title {
+		padding-left: 3rem;
+		margin-left: 4rem;
+	}
+
 }
 
 /******************************************
