@@ -192,13 +192,20 @@ blockquote footer {
 }
 
  @media (max-width: 1290px) {
- 	#portrait {
- 		order: 3;
- 	}
+	#quote-section {
+		margin-top: 4rem;
+		margin-bottom: 1rem;
+		height: 80%;
+	}
 
- 	#pug {
- 		order: 2;
- 	}
+	#portrait {
+		order: 1;
+	}
+
+	#gom {
+		order: 3;
+	}
+}
  }
 
 @media (max-width: 1250px) {
@@ -214,20 +221,6 @@ blockquote footer {
 @media (max-width: 815px) {
 	#quote-section .hidden-quote:nth-child(2) {
 		display: none;
-}
-
-	#quote-section {
-		margin-top: 4rem;
-		margin-bottom: 1rem;
-		height: 80%;
-	}
-
-	#portrait {
-		order: 1;
-	}
-
-	#gom {
-		order: 3;
 	}
 }
 
