@@ -224,7 +224,7 @@ blockquote footer {
 	}
 }
 
-@media (max-width: 809px) {
+@media (max-width: 700px) {
 	blockquote {
 		margin: auto;
 		font-size: 2rem;
