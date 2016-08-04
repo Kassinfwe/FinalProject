@@ -271,6 +271,10 @@ blockquote footer {
 /* Bio Page (AboutMe.html)
 /*******************************************/
 
+.bio {
+	margin-top: 1rem;
+}
+
 .bio-p {
 	flex-flow: columns wrap;
 	align-items: center;
