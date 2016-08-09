@@ -89,7 +89,7 @@ header {
 }
 
 .header-name {
-	margin-left: 0%;
+	margin-left: 20%;
 	margin-top: -7.5rem;
 	margin-bottom: 0;
 }
@@ -111,7 +111,7 @@ header {
 
 .main-menu li {
 	font-size: 4rem;
-	margin-top: 2rem;
+	margin-top: 1.3rem;
 	font-weight: 600;
 	color: #000;
 }
@@ -126,7 +126,7 @@ header {
 	}
 
 	.main-menu li {
-		font-size: 2.7rem;
+		font-size: 2.4rem;
 	}
 
 	.logo {
@@ -135,7 +135,7 @@ header {
 	}
 
 	.header-name {
-		font-size: 5.5rem;
+		font-size: 4rem;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 	}
@@ -221,14 +221,19 @@ blockquote footer {
 }
 
 	#quote-section {
-		margin-top: 4rem;
+		margin-top: 2rem;
 		margin-bottom: 1rem;
 		height: 80%;
 	}
 
+	#works {
+		display: flex;
+		flex-direction: row wrap;
+	}
+
 	#portrait {
 		order: 1;
-	}
+}
 
 	#pug {
 		order: 2;
@@ -237,18 +242,22 @@ blockquote footer {
 	#gom {
 		order: 3;
 	}
+
+	#works .covers {
+		height: 20%;
+	}
 }
 
 @media (max-width: 700px) {
 	blockquote {
 		margin: auto;
-		font-size: 2rem;
+		font-size: 1.5rem;
 		width: 65%;
-		padding-top: 3rem;
+		padding-top: 1rem;
 	}
 
 	blockquote footer {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	#quote-section {
