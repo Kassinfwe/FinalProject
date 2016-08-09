@@ -46,7 +46,7 @@ li {
 .jcarousel-control-prev,
 .jcarousel-control-next {
 	position: absolute;
-	top: 100px;
+	top: 50%;
 	width: 30px;
 	height: 30px;
 	text-align: center;
