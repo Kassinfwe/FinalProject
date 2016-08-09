@@ -272,7 +272,7 @@ blockquote footer {
 /*******************************************/
 
 .bio {
-	margin-top: 1rem;
+	margin-top: 3rem;
 }
 
 .bio-p {
@@ -291,7 +291,7 @@ blockquote footer {
 	text-align: justify;
 	padding: 2rem;
 	margin-right: 10rem;
-	background-color:rgba(226,96,0,.05);
+	background-color:rgba(226,96,0,.2);
 }
 
 @media (max-width: 1130px) {
@@ -299,26 +299,32 @@ blockquote footer {
 		display: block;
 		margin: auto;
 		text-align: center;
+		margin-top: 3rem;
 	}
 
 	.books-img-left {
-		padding: 0rem;
+		padding-right: 0rem;
 	}
 
 	.bio-p {
 		margin: auto;
+		margin-top: 1.2rem;
 	}
 
 	.bio-p p {
-		font-size: 1.6rem;
+		font-size: 1.7rem;
 		text-align: center;
 		margin-right: 0rem;
 		margin: auto;
-		width: 60%;
+		width: 65%;
 	}
 
 	.books-p-right p {
 		margin: 0rem;
+	}
+
+	#bio-footer {
+		background-color: rgba(255,64,64,.05);
 	}
 }
 
@@ -372,7 +378,6 @@ blockquote footer {
 .books-img-left {
 	flex-flow: row wrap;
 	margin: auto;
-	padding-right: 2rem;
 }
 
 .books-img-left img {
@@ -425,7 +430,6 @@ blockquote footer {
 
 .entry-container {
 	flex-flow: column nowrap;
-	order: 1;
 	width: 58%;
 }
 
@@ -552,7 +556,7 @@ summary {
 /* Footer
 /*******************************************/
 
-#footer p {
+.footer p {
 	text-align: left;
 	padding-left: 3rem;
 	padding-top: 1rem;
@@ -560,7 +564,7 @@ summary {
 	margin: 0;
 }
 
-#footer {
+.footer {
 	display: block;
 	background-color: rgba(226,96,0,.05);
 	margin: 0;
