@@ -411,6 +411,7 @@ background-image: url("../images/WhitePaper.jpg");
 
 .books-p-left {
 	flex-flow: row wrap;
+	order: 1;
 	margin-left: 10rem;
 	margin-right: 2rem;
 }
@@ -418,6 +419,7 @@ background-image: url("../images/WhitePaper.jpg");
 .books-img-right {
 	flex-flow: row wrap;
 	margin: auto;
+	order: 2;
 }
 
 .books-img-right img {
@@ -562,7 +564,7 @@ background-image: url("../images/WhitePaper.jpg");
 		display: block;
 		margin: auto;
 		padding: 1rem;
-		height: 20rem;
+		height: 27rem;
 	}
 
 	.first-descrip, .second-descrip {
@@ -700,6 +702,17 @@ summary {
 	font-size: 2rem;
 }
 
+@media (max-width: 650px) {
+	
+
+	.blog-pic {
+		max-width: 20%;
+		max-height: 20%;
+		padding: 2rem;
+		padding-left: 0rem;
+	}
+}
+
 @media (max-width: 1180px) {
 	.blog-content p:nth-child(2) {
 		width: 100%;
@@ -732,7 +745,6 @@ summary {
 		padding-left: 3rem;
 		margin-left: 4rem;
 	}
-
 }
 
 /******************************************
