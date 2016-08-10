@@ -347,45 +347,55 @@ blockquote footer {
 
 .books {
 	display: flex;
-	height: 100%;
-	width: 100%;
 	align-items: center;
 	justify-content: center;
+	height: 100%;
+	width: 100%;
 	margin: auto;
 	margin-top: 4rem;
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.5rem;
-	background-image: url("../images/WhitePaper.jpg");
 }
+
+/*
+background-image: url("../images/WhitePaper.jpg");
+*/
 
 .books-p-right {
 	flex-flow: row wrap;
 	font-size: 1.5rem;
 	margin-right: 10rem;
+	display: flex;
 }
 
-@media (max-width: 700px) {
-	.header-name {
-		text-align: center;
-	}
-
-	.books {
-		display: block;
-		margin: auto;
-		width: 100%;
-	}
-	
-	.books-p-right {
-		margin: auto;
-		font-size: .5rem;
-		text-align: justify;
-	}
+.descriptions {
+	display: flex;
+	flex-flow: column nowrap;
 }
 
-@media (max-width: 1075px) {
-	.books-p-right {
-		text-align: justify;
-	}
+.first-descrip {
+	padding-top: 1rem;
+	font-size: 2.1rem;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 1px;
+	width: 60%;
+	justify-content: flex-start;
+	align-self: flex-start;
+	text-align: left;
+	margin-top: 0.5rem;
+}
+
+.second-descrip {
+	padding-bottom: 1rem;
+	font-size: 2.1rem;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	width: 70%;
+	justify-content: flex-end;
+	align-self: flex-end;
+	text-align: right;
 }
 
 .books-img-left {
@@ -412,13 +422,13 @@ blockquote footer {
 
 .books-img-right img {
 	height: 40rem;
-	margin-left: 0rem;
+	margin-left: 10rem;
 	margin-right: 10rem;
 }
 
 .aside-quote {
 	display: block;
-	background-image: url('../images/TanPaper.jpg');
+	width: 100%;
 }
 
 .aside-quote blockquote {
@@ -426,11 +436,171 @@ blockquote footer {
 	align-items: center;
 	justify-content: center;
 	align-content: center;
-	width: 40%;
+	width: 60%;
 	margin: auto;
 	margin-top: 5rem;
 	margin-bottom: 5rem;
+	text-align: center;
 }
+
+.aside-quote q {
+	font-size: 4rem;
+}
+.aside-quote footer {
+	font-size: 3.6rem;
+}
+
+@media (max-width: 1280px) {
+	.first-descrip, .second-descrip {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 1230px) {
+	.first-descrip, .second-descrip {
+		font-size: 1.9rem;
+	}
+}
+
+@media (max-width: 1130px) {
+	.first-descrip, .second-descrip {
+		font-size: 1.7rem;
+	}
+
+	.first-descrip {
+		padding-bottom: 5rem;
+	}
+}
+
+@media (max-width: 1075px) {
+	.books-p-right {
+		text-align: justify;
+	}
+}
+
+@media (max-width: 1020px) {
+	.first-descrip {
+		padding-bottom: 1.5	rem;
+	}
+
+	.aside-quote q {
+	font-size: 3.4rem;
+	}
+	
+	.aside-quote footer {
+	font-size: 3rem;
+	}
+}
+
+@media (max-width: 975px) {
+	.first-descrip, .second-descrip {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 860px) {
+	.first-descrip, .second-descrip {
+		width: 100%;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	.books-img-right img {
+		height: 35rem;
+	}
+
+	.books-img-left img {
+		height: 35rem;
+	}
+
+	.aside-quote q {
+	font-size: 3rem;
+	}
+	
+	.aside-quote footer {
+	font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 815px) {
+	.header-name {
+		text-align: center;
+	}
+
+	.first-descrip {
+		display: none;
+	}
+
+	.books-img-right img {
+		margin-left: 4rem;
+		height: 40rem;
+	}
+
+	.books-img-left img {
+		height: 40rem;
+		margin-right: 4rem;
+	}
+
+	.second-descrip {
+		border-top-color: black;
+		border-top-style: solid;
+		border-top-width: 1px;
+		padding-top: 1rem;
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 700px) {
+	.books {
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+
+	.books img {
+		display: block;
+		margin: auto;
+		padding: 1rem;
+		height: 20rem;
+	}
+
+	.first-descrip, .second-descrip {
+		display: block;
+		margin: auto;
+		font-size: 1.5rem;
+		border: none;
+		padding-bottom: 3rem;
+		margin-bottom: 0rem;
+	}
+
+	.books-p-right, .books-p-left {
+		display: block;
+		margin-right: 1.4rem;
+		margin-left: 1.4rem;
+		padding-bottom: 0rem;
+		border: none;
+		padding: 0rem;
+		margin-bottom: 0rem;
+	}
+
+	.aside-quote blockquote {
+		margin: auto;
+		margin-bottom: 2rem;
+	}
+
+	.aside-quote q {
+		font-size: 2rem;
+	}
+
+	.aside-quote footer {
+		font-size: 2.1rem;
+	}
+}
+
+/*
+background-image: url('../images/TanPaper.jpg');
+*/
 
 /******************************************
 /* Blog (blog.html)
