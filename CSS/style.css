@@ -341,6 +341,14 @@ blockquote footer {
 	}
 }
 
+@media (max-width: 815px) {
+	.bio .books-img-left img {
+		margin: auto;
+	}
+
+}
+
+
 /******************************************
 /* Books Page (books.html)
 /*******************************************/
@@ -574,6 +582,11 @@ background-image: url("../images/WhitePaper.jpg");
 		border: none;
 		padding-bottom: 3rem;
 		margin-bottom: 0rem;
+	}
+
+	.descriptions {
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 
 	.books-p-right, .books-p-left {
