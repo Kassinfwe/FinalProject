@@ -116,16 +116,16 @@ header {
 	}
 
 	.main-menu li {
-		font-size: 2.4rem;
+		font-size: 3rem;
 	}
 
 	.logo {
-		width: 50%;
-		height: 50%;
+		width: 60%;
+		height: 60%;
 	}
 
 	.header-name {
-		font-size: 4rem;
+		font-size: 4.2rem;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 	}
@@ -605,14 +605,22 @@ background-image: url("../images/WhitePaper.jpg");
 	.aside-quote blockquote {
 		margin: auto;
 		margin-bottom: 2rem;
+		border-top-color: black;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-bottom-color: black;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
 	}
 
 	.aside-quote q {
 		font-size: 2rem;
+		padding-top: 1rem;
 	}
 
 	.aside-quote footer {
 		font-size: 2.1rem;
+		padding-bottom: 1rem;
 	}
 }
 
