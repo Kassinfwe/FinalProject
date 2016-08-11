@@ -348,7 +348,13 @@ blockquote footer {
 	.bio .books-img-left img {
 		margin: auto;
 	}
+}
 
+@media (max-width: 700px) {
+	.bio .books-img-left img {
+		margin: auto;
+		width: 80%;
+	}
 }
 
 /******************************************
