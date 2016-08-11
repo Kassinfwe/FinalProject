@@ -276,6 +276,11 @@ blockquote footer {
 		margin: 0rem;
 		width: 40%;
 	}
+
+	#works .covers {
+		height: 100%;
+		width: 90%;
+	}
 }
 
 /******************************************
