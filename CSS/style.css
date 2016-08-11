@@ -1,22 +1,5 @@
-/** To-Do/Questions **/
-
-/* 
-- With the splash page, I don't want it on mobile. Does the
-	home page also need to be index.html? (device check java)
-*/
 
 /** Base Styles **/
-
-/**
-font-family: 'Indie Flower', cursive;
-font-family: 'Amatic SC', cursive;
-font-family: 'Life Savers', cursive;
-font-family: 'Bree Serif', serif;
-font-family: 'Poiret One', cursive;
-font-family: 'Harmattan', sans-serif;
-font-family: 'Arima Madurai', cursive;
-font-family: 'Cormorant Garamond', serif;
-**/
 
 html {
   font-size: 62.5%;
@@ -204,11 +187,7 @@ blockquote footer {
  }
 
 @media (max-width: 1250px) {
-	.main-section {
-		width: 100%;
-	}
-
-	#quote-section {
+	.main-section, #quote-section {
 		width: 100%;
 	}
  }
@@ -352,7 +331,6 @@ blockquote footer {
 
 @media (max-width: 700px) {
 	.bio .books-img-left img {
-		margin: auto;
 		width: 80%;
 		height: 80%;
 	}
@@ -373,10 +351,6 @@ blockquote footer {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.5rem;
 }
-
-/*
-background-image: url("../images/WhitePaper.jpg");
-*/
 
 .books-p-right {
 	flex-flow: row wrap;
@@ -503,11 +477,11 @@ background-image: url("../images/WhitePaper.jpg");
 	}
 
 	.aside-quote q {
-	font-size: 3.4rem;
+		font-size: 3.4rem;
 	}
 	
 	.aside-quote footer {
-	font-size: 3rem;
+		font-size: 3rem;
 	}
 }
 
@@ -525,11 +499,7 @@ background-image: url("../images/WhitePaper.jpg");
 		font-size: 1.5rem;
 	}
 
-	.books-img-right img {
-		height: 35rem;
-	}
-
-	.books-img-left img {
+	.books-img-right img, .books-img-left img {
 		height: 35rem;
 	}
 
@@ -710,7 +680,6 @@ background-image: url('../images/TanPaper.jpg');
 
 .title {
 	margin: auto;
-	text-align: center;
 	font-size: 3.4rem;
 	font-style: italic;
 	padding-top: 5rem;
@@ -789,10 +758,10 @@ summary {
 	}
 
 	.entry-container .title {
+		margin: 0rem;
 		padding: 0rem;
 		padding-bottom: 1rem;
 		padding-top: 4rem;
-		margin: 0rem;
 	}
 
 	.blog-entry p, .blog-pic {
