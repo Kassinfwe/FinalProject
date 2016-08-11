@@ -356,6 +356,10 @@ blockquote footer {
 		width: 80%;
 		height: 80%;
 	}
+
+	.entry-container .title {
+		padding-top: 2rem;
+	}
 }
 
 /******************************************
