@@ -356,10 +356,6 @@ blockquote footer {
 		width: 80%;
 		height: 80%;
 	}
-
-	.entry-container .title {
-		padding-top: 2rem;
-	}
 }
 
 /******************************************
@@ -795,6 +791,7 @@ summary {
 	.entry-container .title {
 		padding: 0rem;
 		padding-bottom: 1rem;
+		padding-top: 4rem;
 		margin: 0rem;
 	}
 
